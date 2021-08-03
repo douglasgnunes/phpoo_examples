@@ -19,6 +19,8 @@
             $cc = new AbstracaoCC('Douglas',0,1000);
             $cp = new AbstracaoCP('Douglas', 0);
 
+            $cc->Depositar(1000);
+
             $cc->VerSaldo();
             $cp->VerSaldo();
             echo "<pre>";

@@ -1,4 +1,5 @@
 <?php 
+    //Classe genérica que fornece métodos para a especialização das classes que a herdam
     abstract class Abstracao{//com  o abstract não temos mais uma classe completa e sim abstrata não  pode mais ter objetos que a instanciam
         //serve apenas para ser herdada de outras classes
         //se utilizar o final no lugar de abstract ela passa ser uma classe que não poderá ser herdada
